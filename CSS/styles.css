@@ -47,12 +47,12 @@ nav button {
 
 .trial-button {
     width: 150px;
-    color: #F9FCFF;
+    color: #ffffff;
     background-color: #722ED1;
 }
 
 nav button:hover {
-    color: #F9FCFF;
+    color: #ffffff;
     background-color: #722ED1;
 }
 
@@ -146,7 +146,7 @@ nav button:hover {
 
 .trial button {
     font-size: 16px;
-    padding: 8px 10px;
+    padding: 15px 15px;
     border: 1px solid #722ED1;
     border-radius: 20px;
     /* width: 100px; */
@@ -157,7 +157,7 @@ nav button:hover {
 
 .trial .trial-button {
     background-color: #722ED1;
-    color: #E3F1FF;
+    color: #ffffff;
 }
 
 .trial button:hover {
@@ -178,7 +178,8 @@ nav button:hover {
     /* width: 90px; */
     /* height: 90px; */
     cursor: pointer;
-    border: 1.5px solid #722ED1;
+    border: 1px solid #722ED1;
     border-radius: 100%;
     padding: 5px;
+    z-index: 5;
 }
