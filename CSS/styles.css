@@ -12,5 +12,31 @@ button {
 .nav-hero {
     background: #E3F1FF;
     background: linear-gradient(to top, #E3F1FF 30%, #F9FCFF 58%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 900px;
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
