@@ -17,12 +17,31 @@ button {
     /* justify-content: center; */
     align-items: center;
     height: 900px;
+    color: #111111;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav p {
+    font-size: 20px;
+}
+
+nav button {
+    font-size: 18px;
+    color: #722ED1;
+    padding: 8px 10px;
+    background-color: transparent;
+    border: 1px solid #722ED1;
+    border-radius: 20px;
+}
+
+nav button:hover {
+    color: #F9FCFF;
+    background-color: #722ED1;
 }
 
 .nav-right {
@@ -33,6 +52,13 @@ nav {
 
 .about {
     display: flex;
+}
+
+.about p {
+    font-size: 20px;
+}
+.about img {
+    height: 20px;
 }
 
 .hero {
