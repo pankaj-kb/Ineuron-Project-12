@@ -187,10 +187,12 @@ nav button:hover {
 /* Why us */
 
 .why-us {
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .top-why {
@@ -198,6 +200,7 @@ nav button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .why-q {
@@ -227,6 +230,45 @@ nav button:hover {
 font-size: 40px;
 }
 
-.why-subtext {
+.top-why h1 {
+    color: #160637;
+}
 
+.why-subtext {
+    color: #8989A2;
+    font-size: 19px;
+    width: 60%;
+    text-align: center;
+}
+
+.why-us .bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap:20px
+}
+
+.why-items img {
+    height: 60px;
+}
+
+.items-heading {
+    color: #160637;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.items-details {
+    color: #83878C;
+    font-size: 17px;
+    width: 60%;
+    text-align: center;
 }
