@@ -336,7 +336,6 @@ nav button:hover {
     justify-content: center;
     align-items: center;
     /* gap: 100px; */
-    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }
 
 .engineering img {
@@ -368,3 +367,16 @@ nav button:hover {
 }
 
 /* Review Section */
+
+.review {
+    background: #E3F1FF;
+    background: linear-gradient(to top, #E3F1FF 30%, #F9FCFF 58%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 800px;
+    color: #111111;
+    gap: 20%;
+    clip-path: polygon(0 23%, 100% 0, 100% 76%, 0 100%);
+}
