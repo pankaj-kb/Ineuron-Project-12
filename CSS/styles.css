@@ -227,10 +227,7 @@ nav button:hover {
 }
 
 .why-heading {
-font-size: 40px;
-}
-
-.top-why h1 {
+    font-size: 40px;
     color: #160637;
 }
 
@@ -253,7 +250,7 @@ font-size: 40px;
     justify-content: center;
     align-items: center;
     width: 500px;
-    gap:20px
+    gap: 20px
 }
 
 .why-items img {
@@ -271,4 +268,61 @@ font-size: 40px;
     font-size: 17px;
     width: 60%;
     text-align: center;
+}
+
+/* Stack Section */
+
+.stack {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.stack img {
+    height: 80%;
+}
+
+.stack-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    gap: 20px;
+}
+
+.purple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F1FF;
+    /* height: 40px; */
+    /* width: 100px; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.purple img {
+    height: 20px;
+}
+
+.purple p {
+    font-size: 20px;
+    color: #722ED1;
+    font-weight: 500;
+}
+
+.stack-right .stack-heading {
+    font-size: 40px;
+    color: #160637;
+}
+
+.stack-right .stack-subtext {
+    color: #8989A2;
+    font-size: 17px;
+    width: 85%;
+    /* text-align: left; */
 }
