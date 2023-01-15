@@ -183,3 +183,11 @@ nav button:hover {
     padding: 5px;
     z-index: 5;
 }
+
+/* Why us */
+
+.why-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
