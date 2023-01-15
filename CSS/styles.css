@@ -373,10 +373,62 @@ nav button:hover {
     background: linear-gradient(to top, #E3F1FF 30%, #F9FCFF 58%);
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     align-items: center;
     height: 800px;
-    color: #111111;
-    gap: 20%;
     clip-path: polygon(0 23%, 100% 0, 100% 76%, 0 100%);
+    gap: 40px;
+}
+
+.review-heading {
+    color: #160637;
+    font-size: 25px;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px
+}
+
+.profile img {
+    height: 100px;
+}
+
+.profile .name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile .position {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    top: 15px;
+    border-top: 1px solid #722ED1;
+    padding-top: 20px;
+}
+
+.logo-row img {
+    height: 45px;
 }
