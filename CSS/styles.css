@@ -326,3 +326,43 @@ nav button:hover {
     width: 85%;
     /* text-align: left; */
 }
+
+
+/* Engineering Section */
+
+.engineering {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 100px; */
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+}
+
+.engineering img {
+    height: 70%;
+}
+
+.engineering-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    gap: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.engineering-heading {
+    font-size: 40px;
+    color: #160637;
+    /* width: 100%; */
+}
+
+.engineering-subtext {
+    color: #8989A2;
+    font-size: 17px;
+    width: 80%;
+    /* text-align: left; */
+}
