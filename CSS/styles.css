@@ -137,6 +137,7 @@ nav button:hover {
     color: #83878C;
     font-size: 20px;
     width: 55%;
+    line-height: 150%;
 }
 
 .trial {
@@ -236,6 +237,7 @@ nav button:hover {
     font-size: 19px;
     width: 60%;
     text-align: center;
+    line-height: 150%;
 }
 
 .why-us .bottom-section {
@@ -268,6 +270,7 @@ nav button:hover {
     font-size: 17px;
     width: 60%;
     text-align: center;
+    line-height: 150%;
 }
 
 /* Stack Section */
@@ -325,6 +328,7 @@ nav button:hover {
     font-size: 17px;
     width: 85%;
     /* text-align: left; */
+    line-height: 150%;
 }
 
 
@@ -364,6 +368,7 @@ nav button:hover {
     font-size: 17px;
     width: 80%;
     /* text-align: left; */
+    line-height: 150%;
 }
 
 /* Review Section */
@@ -386,6 +391,7 @@ nav button:hover {
     font-weight: 500;
     width: 50%;
     text-align: center;
+    line-height: 150%;
 }
 
 .profile {
@@ -458,6 +464,7 @@ nav button:hover {
     /* width: 60%; */
     position: relative;
     left: 50px;
+    line-height: 150%;
 }
 
 .sign-up-left .logo-row {
