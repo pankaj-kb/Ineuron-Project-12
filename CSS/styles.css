@@ -440,7 +440,7 @@ nav button:hover {
     justify-content: center;
     align-items: center;
     height: 900px;
-    gap:100px;
+    gap: 100px;
 }
 
 .sign-up-left {
@@ -547,10 +547,121 @@ nav button:hover {
 .optional {
     color: #8989A2;
     font-size: 15px;
-    cursor:default;
+    cursor: default;
 }
 
 .optional span {
     color: #722ED1;
     cursor: pointer;
+}
+
+/* End Section */
+
+.end-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    background-color: #FBFCFF;
+    padding-top: 100px;
+    gap: 100px;
+}
+
+.end-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 200px;
+}
+.end-social img {
+    height: 80px;
+}
+
+.end-social p {
+    font-size: 12px;
+    color: #160637;
+    font-weight: 500;
+    /* width: 15%; */
+    line-height: 150%;
+}
+
+.social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-logos img {
+    height: 20px;
+}
+
+.multilinks-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.link-cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.link-cols p:first-child {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.link-cols p {
+    font-size: 14px;
+    color: #160637;
+    font-weight: 400;
+    position: relative;
+    /* margin-top: 10px; */
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.newsletter p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newsletter-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.newsletter-sign-up input::placeholder {
+    font-size: 16px;
+    color: #83878C;
+    font-weight: 400;
+}
+
+.newsletter-sign-up img  {
+    height: 18px;
+}
+
+.signature {
+    font-size: 17px;
+    font-weight: 600;
+    color: #160637;
+    text-decoration: none;
 }
