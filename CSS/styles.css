@@ -439,7 +439,7 @@ nav button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 900px;
     gap:100px;
 }
 
@@ -496,9 +496,9 @@ nav button:hover {
     align-items: center;
     gap: 20px;
     width: 25%;
-    height: 80%;
-    box-shadow: 5px 40px 4px 20px #F9F0FF;
-    border-radius: 20px;
+    height: 60%;
+    box-shadow: 5px 20px 0px 30px #F9F0FF;
+    border-radius: 2px;
 }
 
 .sign-up-heading {
