@@ -393,7 +393,7 @@ nav button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:15px
+    gap: 15px
 }
 
 .profile img {
@@ -415,7 +415,7 @@ nav button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:5px
+    gap: 5px
 }
 
 .logo-row {
@@ -477,4 +477,62 @@ nav button:hover {
     font-size: 18px;
     border-bottom: 1px solid #8989A2;
     padding-bottom: 5px;
+}
+
+
+.sign-up-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-up-heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #160637;
+}
+
+.sign-up-right button {
+    color: #ffffff;
+    background-color: #722ED1;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 150px;
+    border-radius: 10px;
+}
+
+.sign-up-right input {
+    padding: 20px 140px;
+    border: 0.5px solid #8989A2;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.sign-up-right input::placeholder {
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    left: -100px;
+}
+
+.or {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sign-up-right img {
+    height: 70px;
+    border-bottom: 1px solid #83878C;
+    padding-bottom: 10px;
+}
+
+.optional {
+    color: #8989A2;
+    font-size: 15px;
+}
+
+.optional span {
+    color: #722ED1;
 }
