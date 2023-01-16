@@ -432,3 +432,46 @@ nav button:hover {
 .logo-row img {
     height: 45px;
 }
+
+/* Sign Up section */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.sign-up-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-left h1 {
+    font-size: 40px;
+    color: #160637;
+    width: 40%;
+}
+
+.sign-up-left .logo-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.sign-up-left .logo-row .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-left p {
+    color: #8989A2;
+    font-size: 18px;
+    border-bottom: 1px solid #8989A2;
+    padding-bottom: 5px;
+}
