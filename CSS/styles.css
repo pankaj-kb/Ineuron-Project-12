@@ -440,6 +440,7 @@ nav button:hover {
     justify-content: center;
     align-items: center;
     height: 700px;
+    gap:100px;
 }
 
 .sign-up-left {
@@ -448,12 +449,15 @@ nav button:hover {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    width: 30%;
 }
 
 .sign-up-left h1 {
     font-size: 40px;
     color: #160637;
-    width: 40%;
+    /* width: 60%; */
+    position: relative;
+    left: 50px;
 }
 
 .sign-up-left .logo-row {
@@ -472,6 +476,10 @@ nav button:hover {
     gap: 100px;
 }
 
+.row img {
+    height: 40px;
+}
+
 .sign-up-left p {
     color: #8989A2;
     font-size: 18px;
@@ -479,6 +487,7 @@ nav button:hover {
     padding-bottom: 5px;
 }
 
+/* Sign up right */
 
 .sign-up-right {
     display: flex;
@@ -486,6 +495,10 @@ nav button:hover {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 25%;
+    height: 80%;
+    box-shadow: 5px 40px 4px 20px #F9F0FF;
+    border-radius: 20px;
 }
 
 .sign-up-heading {
@@ -499,22 +512,24 @@ nav button:hover {
     background-color: #722ED1;
     font-size: 17px;
     font-weight: 400;
-    padding: 20px 150px;
-    border-radius: 10px;
+    padding: 15px 20%;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .sign-up-right input {
-    padding: 20px 140px;
+    padding: 15px 20%;
     border: 0.5px solid #8989A2;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: left;
+    cursor: pointer;
 }
 
 .sign-up-right input::placeholder {
     font-size: 17px;
     font-weight: 400;
     position: relative;
-    left: -100px;
+    left: -80px;
 }
 
 .or {
@@ -526,13 +541,16 @@ nav button:hover {
     height: 70px;
     border-bottom: 1px solid #83878C;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .optional {
     color: #8989A2;
     font-size: 15px;
+    cursor:default;
 }
 
 .optional span {
     color: #722ED1;
+    cursor: pointer;
 }
