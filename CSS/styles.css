@@ -447,6 +447,7 @@ nav button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .sign-up-left h1 {
@@ -461,12 +462,14 @@ nav button:hover {
     justify-content: center;
     align-items: center;
     border: none;
+    gap: 100px;
 }
 
 .sign-up-left .logo-row .row {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 
 .sign-up-left p {
